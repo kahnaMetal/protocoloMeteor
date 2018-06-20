@@ -9,7 +9,8 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "meteor-client:bundle": "meteor-client bundle -s api"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
@@ -37,6 +38,7 @@
   "devDependencies": {
     "@ionic/app-scripts": "3.1.10",
     "@types/meteor": "^1.4.16",
+    "tmp": "0.0.33",
     "typescript": "^2.9.2",
     "typescript-extends": "^1.0.1"
   },
